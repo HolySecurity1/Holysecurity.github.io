@@ -2,11 +2,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const navToggle = document.getElementById('navToggle');
     const navMenu = document.getElementById('navMenu');
 
-    // Function to toggle the navigation menu
-    navToggle.addEventListener('click', function () {
-        navMenu.classList.toggle('open');
-        navToggle.classList.toggle('close');
-    });
+    if (navToggle && navMenu) {
+        console.log('Nav Toggle and Menu found'); // Debug message
+
+        navToggle.addEventListener('click', function () {
+            navMenu.classList.toggle('open');
+            navToggle.classList.toggle('close');
+            console.log('Nav Toggle clicked'); // Debug message
+        });
+    } else {
+        console.log('Nav Toggle or Menu not found'); // Debug message
+    }
 
     // Function to fetch and parse XML
     function loadXML() {
@@ -62,6 +68,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .catch(error => console.error('Error loading XML:', error));
     }
 
-    // Call the function to load XML data
+    // Load the XML data
     loadXML();
 });
