@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to fetch and parse XML
     function loadXML() {
-        fetch('sitemaps.xml')
+        fetch('sitemap.xml')
             .then(response => response.text())
             .then(data => {
                 const parser = new DOMParser();
