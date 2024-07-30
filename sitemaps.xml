@@ -1,60 +1,16 @@
-<website>
-    <header>
-        <emergency-call>
-            <text>Emergency Numbers: <phone href="tel:+27903717985">+27 90 371 7985</phone></text>
-            <social-media>
-                <icon platform="instagram" href="https://www.instagram.com"/>
-                <icon platform="twitter" href="https://www.twitter.com"/>
-                <icon platform="linkedin" href="https://www.linkedin.com"/>
-            </social-media>
-        </emergency-call>
-        <nav>
-            <logo>
-                <image src="img/h.jpg" alt="Holy Security Company Logo"/>
-            </logo>
-            <nav-toggle id="navToggle">
-                <icon class="fas fa-bars" />
-            </nav-toggle>
-            <nav-menu id="navMenu">
-                <menu-item href="index.html" active="true">Home</menu-item>
-                <menu-item href="pages/about.html">About Us</menu-item>
-                <menu-item href="pages/services.html">Services</menu-item>
-                <menu-item href="pages/open-vacancies.html">Vacancies</menu-item>
-                <menu-item href="pages/contact.html">Contact</menu-item>
-            </nav-menu>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <heading level="1">Holy Security</heading>
-            <paragraph>
-                Holy Security started out small but has grown a lot by using the same successful methods as top companies in the security industry. Their success proves that these strategies work. They listen to what customers need and keep making their services better. They use the newest technology to provide the best solutions. Their focus on quality and reliability has helped them earn their clients' trust.
-            </paragraph>
-            <link href="pages/about.html">Read More</link>
-            <heading level="2">Why Choose Holy Security</heading>
-            <paragraph>
-                Holy Security provides a wide range of security solutions to manage risks. Our services include integrated security strategies that combine flexible and organized approaches.
-            </paragraph>
-            <features>
-                <feature icon="fas fa-bell">Alarm Monitoring</feature>
-                <feature icon="fas fa-star">Experience</feature>
-                <feature icon="fas fa-shield-alt">Trustworthy</feature>
-                <feature icon="fas fa-user-shield">VIP Protection</feature>
-                <feature icon="fas fa-users">Experts & Staff</feature>
-            </features>
-        </section>
-    </main>
-    <footer class="credit-footer">
-        <footer-content>
-            <footer-credit>Designed by PercivalTech Innovations</footer-credit>
-            <footer-social-media>
-                <social-icon platform="facebook" href="https://www.facebook.com/share/Fsrtfim2zuMcdmdU/?mibextid=qi2Omg"/>
-                <social-icon platform="twitter" href="https://x.com/Makhubela_HP"/>
-                <social-icon platform="instagram" href="https://www.instagram.com/makhubela_percival/"/>
-                <social-icon platform="linkedin" href="https://www.linkedin.com/in/percival-makhubela-490120233/"/>
-                <social-icon platform="tiktok" href="https://www.tiktok.com/@percival_makhubela"/>
-                <social-icon platform="github" href="https://github.com/Percival-Makhubela"/>
-            </footer-social-media>
-        </footer-content>
-    </footer>
-</website>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/about.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Add more URLs here -->
+</urlset>
