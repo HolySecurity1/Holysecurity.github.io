@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Us Page -->
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/about.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Services Page -->
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/services.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Open Vacancies Page -->
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/open-vacancies.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://holysecurity1.github.io/Holysecurity.github.io/contact.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Additional URLs -->
+    <!-- Add more <url> entries here for other pages on your site -->
+
+</urlset>

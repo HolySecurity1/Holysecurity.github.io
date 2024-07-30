@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Vacancies</title>
+    <link rel="stylesheet" href="../css/open-vacancies.css"> <!-- Path to your CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!-- Font Awesome CDN -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="../img/h.jpg" alt="SecureTech Logo"></a> <!-- Adjust path to your logo image -->
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li class="vacancies-menu active"> <!-- Add 'active' class here -->
+                    <a href="#">Vacancies</a>
+                    <ul class="dropdown">
+                        <li><a href="open-vacancies.html">Open Vacancies</a></li>
+                        <li><a href="closed-vacancies.html">Closed Vacancies</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="vacancies">
+            <h1>Open Vacancies</h1>
+            <p>Currently, there are no open vacancies. Please leave your details below if you want to be notified when positions become available.</p>
+
+            <!-- Form Button -->
+            <a href="https://docs.google.com/forms/d/19cS9sAJu2Vmo5WoocaPmMNxZ0C6aFhApE2Xjk96mLbw/edit#settings" class="form-button" target="_blank">Submit Your Details</a>
+        </section>
+    </main>
+
+    <footer class="credit-footer">
+        <div class="footer-content">
+            <p class="footer-credit">Designed by PercivalTech Innovations</p>
+            <div class="footer-social-media">
+                <a href="https://www.facebook.com/share/Fsrtfim2zuMcdmdU/?mibextid=qi2Omg" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/Makhubela_HP" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/makhubela_percival/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/percival-makhubela-490120233/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.tiktok.com/@percival_makhubela" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="https://github.com/Percival-Makhubela" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to toggle the navigation menu
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
