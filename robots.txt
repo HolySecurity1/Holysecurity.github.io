@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://holysecurity1.github.io/Holysecurity.github.io/sitemap.xml
